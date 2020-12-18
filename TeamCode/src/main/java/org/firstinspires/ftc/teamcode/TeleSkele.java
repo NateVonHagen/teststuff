@@ -124,7 +124,7 @@ public abstract class TeleSkele extends LinearOpMode {
         Gyro.imu.initialize(parameters);
         Gyro.initialized = true;
     }
-
+//
     void setMode(DcMotor.RunMode x) {
         leftFrontWheel.setMode(x);
         rightFrontWheel.setMode(x);
